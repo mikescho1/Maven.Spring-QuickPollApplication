@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Entity
 public class Vote {
+
     @Id
     @GeneratedValue
     @Column(name = "VOTE_ID")
